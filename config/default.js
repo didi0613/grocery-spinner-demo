@@ -26,7 +26,7 @@ module.exports = {
         "paths": {
           "/{args*}": {
             "content": {
-              "module": "./server/views/index-view"
+              "module": "./src/server/views/index-view"
             }
           }
         }
@@ -42,7 +42,7 @@ module.exports = {
         "cors": true
       },
       "state": {
-        "ignoreErrors":true
+        "ignoreErrors": true
       }
     }
   }
